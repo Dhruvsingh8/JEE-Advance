@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +20,12 @@
 
         tr{
             text-align: center;
-            font-size: x-large;
+            font-size: large;
             }
 
         td{
             background-color: #ecf0f3;
-            padding:5px;
+            padding:15px;
         }
 
         th{
@@ -40,13 +40,14 @@
         }
         
         h3{
+            font-size: large;
             color:#fd7e14;
 
         }
 
 
         h2{
-            font-size: xx-large;
+            font-size: x-large;
             color:#fd7e14;
         }
 
@@ -62,24 +63,45 @@
             font-family: sans-serif;
             background-image: url("https://jeeadv.ac.in/images/JEEAdv2023Background.png");
             background-size: cover;
+            background-color: rgb(222, 234, 252);
             height:200px;
             display: flex;
             justify-content: space-around;
         }
 
         .important_dates{
-            margin:20px;
+            margin-top:20px;
         }
 
         .table{
-            padding:40px;
+            padding:50px;
         }
 
         .left_head{
             text-align: right;
         }
 
+        .menu{
+            padding-left:50px;
+            padding-right: 50px;
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-around;
+            background-color: #142d57;
+            height: 50px;
+        }
+
+        .menu_text{
+            margin:15px;
+            font-weight: bolder;
+            color:#ffffff;
+            font-size: large;
+            text-decoration: none;
+
+        }
+
         .footer{
+            margin-top:20px;
             display: flex;
             justify-content: space-around;
             color:#ffffff;
@@ -90,9 +112,11 @@
         }
 
         .important_links{
+            margin-top:20px;
             width:50%;
         }
         .contact_us{
+            margin-top:20px;
             width:50%;
         }
 
@@ -126,6 +150,164 @@
             color: #198754;;
         }
 
+        .menu_logo{
+            display:none;
+        }
+
+        @media only screen and (max-width:1050px){
+            
+            .menu{
+            padding-left:5px;
+            padding-right: 5px;
+            padding-top: 10px;
+            display: flex;
+            justify-content: space-around;
+            background-color: #142d57;
+            height: 30px;
+        }
+
+
+
+
+        }
+
+        @media only screen and (max-width:955px){
+
+            .logo_img{
+                width:fit-content;
+            }
+
+            .menu_text{
+                display: flex;
+                justify-content: space-around;
+                margin:0px;
+                font-weight: bolder;
+                color:#ffffff;
+                font-size: medium;
+                text-decoration: none;
+
+            }
+
+            .logo_bar{
+                font-family: sans-serif;
+                background-image: url("https://jeeadv.ac.in/images/JEEAdv2023Background.png");
+                background-size: cover;
+                height:150px;
+                display: flex;
+                justify-content: space-around;
+            }
+            .logo{
+                display: block;
+                margin:5px;
+                max-width: 100px;
+                width:50%
+            }
+            .left_head{
+                text-align: right;
+                height: 75px;
+            }
+            .right_head{
+                height:75px;
+            }
+            h1{
+                margin:10px;
+                font-size:large;
+            }
+            h3{
+                font-size: medium;
+                color:#fd7e14;
+
+            }
+            h2{
+                font-size: large;
+            }   
+            tr{
+            text-align: center;
+            font-size: large;
+            }
+            td{
+            background-color: #ecf0f3;
+            padding:10px;
+        }
+        }
+
+        @media only screen and (max-width:780px){
+
+            h1{
+                margin:10px;
+                font-size:medium;
+            }
+            h3{
+                font-size: small;
+                color:#fd7e14;
+
+            }
+            .table{
+                padding:20px;
+            }
+            tr{
+            text-align: center;
+            font-size: medium;
+            }
+            .menu_text{
+                display: none;
+                margin:5px;
+                font-weight: bolder;
+                color:#ffffff;
+                font-size: large;
+                text-decoration: none;
+
+            }
+
+            .menu_logo{
+                display:block;
+                width:20px;
+                height: 20px;
+                text-align: left;
+
+            }
+
+        }
+
+        
+        @media only screen and (max-width:540px){
+            h1{
+                margin:10px;
+                font-size:small;
+            }
+            .table{
+                padding:5px;
+            }
+            h2{
+                font-size: medium;
+            }
+            h3{
+                font-size: x-small;
+                color:#fd7e14;
+
+            }
+            
+            .footer{
+                display: block;
+                color:#ffffff;
+                height:400px;
+                background-color: #142d57;
+                padding:50px;
+
+            }
+
+            .important_links{
+                margin-top:40px;
+                width:100%;
+            }
+            .contact_us{
+                margin-top:40px;
+                width:100%;
+            }
+
+
+        }
+
   
 
     </style>
@@ -136,11 +318,11 @@
             <h1 class="hindi_font">संयुक्त प्रवेश परीक्षा (उच्च) २०२३</h1>
             <h1 class="eng_font">Joint Entrance Examination (Advanced) 2023</h1>
         </div>
-        <div>
+        <div  class="logo_img">
             <img src="https://jeeadv.ac.in/images/JEEAdv2023Logo.png" alt="JEE_main logo" class="logo">
             <img src="https://jeeadv.ac.in/images/iitg.png" alt="IIT_guwahati_logo" class="logo">
         </div>
-        <div>
+        <div class="right_head">
             <h1 class="hindi_font">भारतीय प्रौद्योगिकी संस्थान गुवाहाटी</h1>
             <h1 class="eng_font">Indian Institute of Technology Guwahati</h1>
             <h3>आयोजक संस्थान | Organizing Institute</h3>
@@ -149,7 +331,15 @@
 
     </div>
     <div class="menu">
-
+            <img class="menu_logo" src="https://assets.stickpng.com/images/588a64e0d06f6719692a2d10.png">
+            <div><a href="" class="menu_text">Home</a></div>
+            <div><a href="" class="menu_text">Important Dates</a></div>
+            <div><a href="" class="menu_text">Examination</a></div>
+            <div><a href="" class="menu_text">Downloads</a></div>
+            <div><a href="" class="menu_text">Admission</a></div>
+            <div><a href="" class="menu_text">Archive</a></div>
+            <div><a href="" class="menu_text">FAQs</a></div>
+            <div><a href="" class="menu_text">Contact</a></div>
     </div>
     <div class="image">
           
@@ -157,12 +347,10 @@
     <div class="important_dates">
         <center>
             <h2>Important Dates</h2>
-            <hr color="green" width="400px">
-          <div class="table">
+            <hr color="green" width="250px">
+        <div class="table">
             <table>
-                <col class="slno">
-                <col class="activity">
-                <col class="date_day">
+
                 <tr>
                     <th>Sl. No.</th>
                     <th>Activity</th>
@@ -250,7 +438,7 @@
     </div>
     <div class="footer">
         <div class="important_links">
-            <h3>Important Links</h3><br>
+            <h2>Important Links</h2><br>
             <a href="https://jeeadv.ac.in/imp_dates.html" class="foot_link">Schedule</a><br>
             <a href="https://jeeadv.ac.in/eligibility.html" class="foot_link">Eligibility Criteria</a><br>
             <a href="https://jeeadv.ac.in/foreign.html" class="foot_link">Foreign candidates</a><br>
@@ -260,7 +448,7 @@
 
         </div>
         <div class="contact_us">
-            <h3>Contact Us</h3>
+            <h2>Contact Us</h2>
             JEE office<br>
             Indian Institute of Technology Guwahati<br>
             Guwahati-781039<br>
