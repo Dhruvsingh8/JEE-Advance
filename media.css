@@ -1,0 +1,139 @@
+/* media 1 */
+@media only screen and (min-width:992px){
+    .col-1 {
+        flex: 0 0 auto;
+        width: 47.96%;
+      }
+
+      .navbar{
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+      }
+      
+      .menu{
+        display: none;
+      }
+
+      .navbar_element{
+        display: flex;
+        flex-basis: auto;
+      }
+
+      .navbar_content{
+        flex-direction: row;
+      }
+
+      .container1{
+        max-width: 960px;
+      }
+
+      .colunm{
+        flex: 0 0 auto;
+        width: 14.5%;
+      }
+
+      .iit-img-inner{
+        height: 165px;
+      }
+      .colunm1{
+        width: 48.665%;
+        flex: 0 0 auto;
+      }
+}
+
+
+
+
+/* media 2 */
+@media only screen and (max-width:992px) and (min-width:768px){
+    .col-1 {
+        flex: 0 0 auto;
+        width: 47%;
+      }
+
+      .navbar_element{
+        display: none;
+      }
+
+      .iit-tour{
+        min-height: 40vh;
+      }
+      .container1{
+        max-width: 720px;
+      }
+      .colunm{
+        flex: 0 0 auto;
+        width: 30.5%;
+      }
+      .colunm1{
+        width: 48.28%;
+        flex: 0 0 auto;
+      }
+
+}
+
+
+
+
+/* media 3 */
+@media only screen and (max-width:768px) and (min-width:576px){
+    .col-1 {
+        flex: 0 0 auto;
+        width: 46.4%;
+      }
+
+      .navbar_element{
+        display: none;
+      }
+
+      .iit-tour{
+        min-height: 40vh;
+      }
+      .container1{
+        max-width: 540px;
+      }
+      .colunm{
+        flex: 0 0 auto;
+        width: 46.2%;
+      }
+
+}
+
+
+
+
+/* media 4  */
+@media only screen and (max-width:576px){
+    .col-1 {
+        flex: 0 0 auto;
+        width: 100%;
+      }
+
+    .mcol-1-ele {
+        flex-direction: row-reverse !important;
+        display: flex !important;
+        margin-bottom: 0.45rem;
+        /* height: 96.123%; */
+      }
+    
+      .col-11 {
+        text-align: left !important;
+        flex-grow: 1 !important;
+        padding: 0 0.9rem;
+      }
+
+      .navbar_element{
+        display: none;
+      }
+
+      .iit-tour{
+        min-height: 15vh;
+      }
+
+      .colunm{
+        flex: 0 0 auto;
+        width: 43%;
+      }
+      
+}
+
